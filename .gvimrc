@@ -63,7 +63,7 @@ if version >= 500
 
   " default color scheme
   "source ~/.vim/colors/dogbreath.vim
-  source ~/.vim/colors/mordor.vim
+  "source ~/.vim/colors/mordor.vim
   "source ~/.vim/colors/mirkwood.vim
 
 endif
