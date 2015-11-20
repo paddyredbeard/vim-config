@@ -49,7 +49,7 @@ set expandtab
 set shiftwidth=4               " nombre d'espace apres un '>>'
 set tabstop=4                  " nombre de place que prend une tabulation
 set hlsearch
-set ignorecase                 " ignore case when searching
+"set ignorecase                 " ignore case when searching
 set smarttab
 set hidden
 set listchars=tab:>.,trail:.,extends:#,nbsp:.
@@ -169,6 +169,43 @@ map <leader>s :SyntasticToggleMode<CR>
 set pastetoggle=<leader>p
 set tags+=vendor.tags
 
+
+""""""""""""""""""""
+" GnuPG Extensions "
+""""""""""""""""""""
+" Tell the GnuPG plugin to armor new files.
+let g:GPGPreferArmor=1
+
+" Tell the GnuPG plugin to sign new files.
+let g:GPGPreferSign=1
+
+augroup GnuPGExtra
+    " Set extra file options.
+    autocmd BufReadCmd,FileReadCmd *.\(gpg\|asc\|pgp\) call SetGPGOptions()
+
+    " Automatically close unmodified files after inactivity.
+    autocmd CursorHold *.\(gpg\|asc\|pgp\) quit
+augroup END
+
+function SetGPGOptions()
+    " Set updatetime to 1 minute.
+    set updatetime=60000
+
+    " Fold at markers.
+    set foldmethod=marker
+
+    " Automatically close all folds.
+    set foldclose=all
+
+    " Only open folds with insert commands.
+    set foldopen=insert
+endfunction
+
+
+""""""""""""""""
+" local stuff  "
+""""""""""""""""
 if filereadable(expand("~/.vimrc.local.after"))
     source ~/.vimrc.local.after
 endif
+
