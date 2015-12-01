@@ -1,3 +1,4 @@
+Bundle 'IN3D/vim-raml'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'Raimondi/delimitMate'
