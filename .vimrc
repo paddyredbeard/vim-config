@@ -49,9 +49,9 @@ set title                      " show title in console title bar
 set ttyfast                    " smoother changes
 
 set expandtab
-set shiftwidth=4               " nombre d'espace apres un '>>'
 set shiftround                 " use multiple of shiftwidth when indenting with '<' and '>'"
-set tabstop=4                  " nombre de place que prend une tabulation
+set shiftwidth=2               " nombre d'espace apres un '>>'
+set tabstop=2                  " nombre de place que prend une tabulation
 set hlsearch
 "set ignorecase                 " ignore case when searching
 set smarttab
