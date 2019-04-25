@@ -59,7 +59,15 @@ set hidden
 set listchars=tab:>.,trail:.,extends:#,nbsp:.
 set list
 
-colorscheme vividchalk
+"colorscheme comrade
+"colorscheme dogbreath2
+"colorscheme dogbreath
+colorscheme gruvbox
+set bg=dark
+"colorscheme mirkwood
+"colorscheme molokai
+"colorscheme mordor
+"colorscheme vividchalk
 
 " In many terminal emulators the mouse works just fine, thus enable it.
 if has('mouse')
@@ -199,3 +207,5 @@ endif
 
 let $FZF_DEFAULT_COMMAND = 'find . -type f | grep -v "cache/" | grep -v "\.git/" | grep -v "\.mat$"'
 nnoremap <silent> <C-P> :FZF -x<CR>
+
+set foldmethod=marker
