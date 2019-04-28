@@ -59,6 +59,7 @@ set hidden
 set listchars=tab:>.,trail:.,extends:#,nbsp:.
 set list
 
+"colorscheme badwolf
 "colorscheme comrade
 "colorscheme dogbreath2
 "colorscheme dogbreath
@@ -68,6 +69,8 @@ set bg=dark
 "colorscheme molokai
 "colorscheme mordor
 "colorscheme vividchalk
+
+let g:airline_theme='badwolf'
 
 " In many terminal emulators the mouse works just fine, thus enable it.
 if has('mouse')
