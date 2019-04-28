@@ -14,7 +14,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'vim-scripts/comments.vim'
 
 " theme
-Bundle 'bling/vim-airline'
+Bundle 'vim-airline/vim-airline'
 Bundle 'vim-airline/vim-airline-themes'
 Bundle 'tpope/vim-vividchalk'
 
@@ -25,11 +25,6 @@ Bundle 'w0rp/ale'
 " autocompletion
 Bundle 'arnaud-lb/vim-php-namespace'
 Bundle 'ervandew/supertab'
-"Bundle 'lvht/phpcd.vim'
-"Bundle 'majutsushi/tagbar'
-"Bundle 'maralla/completor.vim'
-"Bundle 'tlib'
-"Bundle 'vim-php/tagbar-phpctags.vim'
 
 " Versioning
 Bundle 'mhinz/vim-signify'
