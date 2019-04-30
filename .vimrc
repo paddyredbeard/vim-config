@@ -66,11 +66,11 @@ set hidden
 set listchars=tab:>.,trail:.,extends:#,nbsp:.
 set list
 
-"colorscheme badwolf
+colorscheme badwolf
 "colorscheme comrade
 "colorscheme dogbreath2
 "colorscheme dogbreath
-colorscheme gruvbox
+"colorscheme gruvbox
 set bg=dark
 "colorscheme mirkwood
 "colorscheme molokai
