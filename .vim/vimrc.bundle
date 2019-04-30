@@ -2,7 +2,6 @@ Bundle 'Raimondi/delimitMate'
 Bundle 'editorconfig/editorconfig-vim'
 Bundle 'gmarik/vundle'
 Bundle 'jamessan/vim-gnupg'
-Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
 
 " navigation
