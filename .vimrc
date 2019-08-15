@@ -66,6 +66,8 @@ set hidden
 set listchars=tab:>.,trail:.,extends:#,nbsp:.
 set list
 
+set number
+
 colorscheme badwolf
 "colorscheme comrade
 "colorscheme dogbreath2
