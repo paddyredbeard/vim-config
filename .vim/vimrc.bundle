@@ -6,6 +6,7 @@ Bundle 'scrooloose/syntastic'
 
 " navigation
 Bundle 'scrooloose/nerdtree'
+Bundle 'Xuyuanp/nerdtree-git-plugin'
 
 Bundle 'tpope/vim-abolish'
 "Bundle 'tpope/vim-commentary'
